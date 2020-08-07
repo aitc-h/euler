@@ -1,2 +1,2 @@
 # euler
-Python-based solutions to the problems on [https://projecteuler.net/](Project Euler)
+Python-based solutions to the problems on [Project Euler](https://projecteuler.net/)
