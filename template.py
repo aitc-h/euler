@@ -1,8 +1,9 @@
 # Problem x
 # xxx
 
-from utility.timeit import timeit
+from utility.decorators import timeit, printit
 
+@printit
 @timeit
 def run():
     pass
