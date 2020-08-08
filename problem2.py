@@ -1,7 +1,7 @@
 # Problem 2
 # Even Fibonacci Numbers
 
-from utility.timeit import timeit
+from utility.decorators import timeit
 from utility.constants import golden
 
 def next_fib(i):

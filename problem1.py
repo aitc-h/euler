@@ -1,7 +1,7 @@
 # Problem 1
 # Multiples of 3 and 5
 
-from utility.timeit import timeit
+from utility.decorators import timeit
 
 @timeit
 def run(mul_of, lt):

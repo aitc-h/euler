@@ -12,3 +12,12 @@ def timeit(method):
         return result
 
     return timed
+
+def printit(method):
+
+    def printer(*args, **kw):
+        result = method(*args, **kw)
+        print(result)
+        return result
+    
+    return printer
