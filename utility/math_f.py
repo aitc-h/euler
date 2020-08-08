@@ -38,7 +38,6 @@ def get_prime_divisors(n):
         factors.append(int(n))
     return factors
 
-
 def sieve_of_eratosthenes(n):
     prime = [True for i in range(n+1)]
     p = 2
@@ -52,3 +51,6 @@ def sieve_of_eratosthenes(n):
 
     nums = list(filter(lambda i: prime[i], range(n+1)))
     return nums
+
+def sum_naturals_to_n(n):
+    return int(n*(1+n)*(1/2))
