@@ -18,3 +18,9 @@ def get_divisors(n):
         if n%i==0:
             yield i
     yield n
+
+def get_divisors_reversed(n):
+    for i in range(int(n/2)+1, 1, -1):
+        if n%1==0:
+            yield i
+    yield n
