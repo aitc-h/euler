@@ -34,3 +34,4 @@ The [decorators](utility/decorators.py) file contains the decorators used to tim
 -   [Problem 12 - Highly divisible triangular number](problem12.py)
 -   [Problem 14 - Longest Collatz sequence](problem14.py)
 -   [Problem 15 - Lattice paths](problem15.py)
+-   [Problem 17 - Number letter counts](problem17.py)
