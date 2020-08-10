@@ -52,5 +52,14 @@ def sieve_of_eratosthenes(n):
     nums = list(filter(lambda i: prime[i], range(n+1)))
     return nums
 
+def sieve(MAX=100000):
+    prime = [True for i in range(MAX+1)]
+    k = int(math.sqrt(MAX))
+    for p in range(2,k):
+        if (prime[p]):
+            for i in range(2*p, MAX+1, p):
+                prime[i] = False
+    return prime
+
 def sum_naturals_to_n(n):
     return int(n*(1+n)*(1/2))
