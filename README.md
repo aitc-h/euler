@@ -35,3 +35,4 @@ The [decorators](utility/decorators.py) file contains the decorators used to tim
 -   [Problem 14 - Longest Collatz sequence](problem14.py)
 -   [Problem 15 - Lattice paths](problem15.py)
 -   [Problem 17 - Number letter counts](problem17.py)
+-   [Problem 25 - 1000-digit Fibonacci number](problem25.py)
