@@ -1,12 +1,16 @@
-# Problem 4
-# Largest palindrome product
+"""
+    Problem 4
+    Largest palindrome product
+"""
 
 from utility.decorators import timeit, printit
+
 
 def is_palindrome(n):
     x = str(n)
     y = x[::-1]
-    return x==y
+    return x == y
+
 
 @printit
 @timeit
@@ -19,6 +23,7 @@ def run(n):
                 max_pal = k
     return max_pal
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     length = 3
     run(length)

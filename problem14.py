@@ -1,5 +1,7 @@
-# Problem 14
-# Longest Collatz sequence
+"""
+    Problem 14
+    Longest Collatz sequence
+"""
 
 from utility.decorators import timeit, printit
 

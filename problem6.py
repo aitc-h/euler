@@ -1,7 +1,10 @@
-# Problem x
-# xxx
+"""
+    Problem 6
+    Sum square difference
+"""
 
 from utility.decorators import timeit, printit
+
 
 @printit
 @timeit
@@ -11,6 +14,7 @@ def run(n):
     b = a*n*x*(1/12)
     return int(b)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     n = 100
     run(n)

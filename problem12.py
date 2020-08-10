@@ -1,5 +1,7 @@
-# Problem 12
-# Highly divisible triangular number
+"""
+    Problem 12
+    Highly divisible triangular number
+"""
 
 from utility.decorators import timeit, printit
 from utility.math_f import sum_naturals_to_n, get_divisors

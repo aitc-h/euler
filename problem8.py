@@ -1,7 +1,10 @@
-# Problem 8
-# Largest product in a series
+"""
+    Problem 8
+    Largest product in a series
+"""
 
 from utility.decorators import timeit, printit
+
 
 @printit
 @timeit
@@ -15,7 +18,8 @@ def run(n):
         max_x = max([prod, max_x])
     return max_x
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     input_number = """
     73167176531330624919225119674426574742355349194934
     96983520312774506326239578318016984801869478851843
@@ -36,5 +40,5 @@ if __name__=="__main__":
     07198403850962455444362981230987879927244284909188
     84580156166097919133875499200524063689912560717606
     05886116467109405077541002256983155200055935729725
-    71636269561882670428252483600823257530420752963450""".replace('\n','').replace(' ','')
+    71636269561882670428252483600823257530420752963450""".replace('\n', '').replace(' ', '')
     run(input_number)
