@@ -33,3 +33,4 @@ The [decorators](utility/decorators.py) file contains the decorators used to tim
 -   [Problem 11 - Largest product in a grid](problem11.py)
 -   [Problem 12 - Highly divisible triangular number](problem12.py)
 -   [Problem 14 - Longest Collatz sequence](problem14.py)
+-   [Problem 15 - Lattice paths](problem15.py)
