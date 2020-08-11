@@ -20,6 +20,8 @@ The [decorators](utility/decorators.py) file contains the decorators used to tim
 
 ## Solutions
 
+<!-- SOLUTIONS_LIST:START -->
+
 -   [Problem 1 - Multiples of 3 and 5](problem1.py)
 -   [Problem 2 - Even Fibonacci numbers](problem2.py)
 -   [Problem 3 - Largest prime factor](problem3.py)
@@ -38,3 +40,4 @@ The [decorators](utility/decorators.py) file contains the decorators used to tim
 -   [Problem 16 - Power digit sum](problem16.py)
 -   [Problem 17 - Number letter counts](problem17.py)
 -   [Problem 25 - 1000-digit Fibonacci number](problem25.py)
+<!-- SOLUTIONS_LIST:END -->
