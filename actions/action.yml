@@ -1,6 +1,0 @@
-name: "Update Problems List"
-author: "Harry Penlington"
-
-runs:
-    using: "docker"
-    image: "Dockerfile"
