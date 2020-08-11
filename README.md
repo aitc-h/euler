@@ -32,6 +32,7 @@ The [decorators](utility/decorators.py) file contains the decorators used to tim
 -   [Problem 10 - Summation of primes](problem10.py)
 -   [Problem 11 - Largest product in a grid](problem11.py)
 -   [Problem 12 - Highly divisible triangular number](problem12.py)
+-   [Problem 13 - Large sum](problem13.py)
 -   [Problem 14 - Longest Collatz sequence](problem14.py)
 -   [Problem 15 - Lattice paths](problem15.py)
 -   [Problem 16 - Power digit sum](problem16.py)
